@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dmurlap</title>
+    <link rel="stylesheet" href="dmurlap.css">
+</head>
+<body>
+    <div class="keret">
+        <form action="DMURLAP.html">
+       <h1>Regisztráció</h1>
+      
+        <div><p>Megszólítás*</p></div>
+
+        <div class="mrs">
+            <input type="radio" name="nem" id="nem"><label for="név">Úrhölgy</label>
+            <input type="radio" name="nem" id="nem"><label for="név">Úr</label>
+
+        </div>
+    
+            <table>
+                <tr>
+                 <td><label for="vezetéknév">Vezetéknév*</label></td>
+                  <td><label for="keresztnév">Keresztnév*</label></td>
+                 </tr>
+                 <tr>
+                 <td><input type="text" name="vezetéknév" id="vnév" /></td>
+                    <td><input type="text" name="keresztnév" id="kernév"  /></td>
+                </tr>
+            </table>
+
+            <label for="születés">Születési dátum*</label> <br>
+            <input type="date" name="születési" id="születési">
+            <table>
+                <tr>
+                 <td><label for="E-mail">E-mail cím*</label></td>
+                  <td><label for="email ismét">E-mail cím ismételt megadása*</label></td>
+                 </tr>
+                 <tr>
+                 <td><input type="email" name="email" id="email">
+                   </td> 
+                   <td>
+                    <input type="email" name="emailujra" id="emailujra">
+                   </td>
+                </tr>
+                
+            </table> 
+            <table>
+                <tr>
+                 <td><label for="Jelszó">Jelszó*</label></td>
+                  <td><label for="jelszoismét">Jelszó ismételt megadása*</label></td>
+                 </tr>
+                 <tr>
+                 <td><input type="jelszó" name="jelszó" id="jelszó">
+                   </td> 
+                   <td>
+                    <input type="jelszóismét" name="jelszóismét" id="jelszóismét">
+                   </td>
+                </tr>
+            </table> 
+           <p>*-kötelező mezők</p>
+
+           <input type="checkbox" name="ászf" id="ászf">
+           <label for="ászf">Tudomásul veszem és elfogadom az 
+            <span><a href="ászf">Általános Szerződési Feltételeke</a></span>-et, valamint az 
+            <span><a href="adatkezelés">Adatkezelési tájékoztatóban</a></span> foglaltakat.*</label> <br>
+            <input type="checkbox" name="hirlevél" id="hirlevél">
+           <label for="ászf">Szeretnék felíratkozni a  <b>A dm Hírlevelem</b>-re.
+             A hírlevélről bármikor leiratkozhatok. 
+             A Hozzájárulás a dm hírlevélhet-t elolvastam és elfogadom.</label>
+<br><br><br>
+              <div id="tovább">
+              <a href="tovabb"><input type="button" value="Tovább" id="tovább"></a> 
+                </div>
+      
+
+        </div>
+       
+        
+    
+</body>
+</html>
