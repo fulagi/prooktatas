@@ -9,6 +9,7 @@
 h1{
     text-align: center;
 }
+
 #név{
     width: 50%;
     float: left
@@ -34,6 +35,6 @@ input{
     width: 280px; height: 30px;
     
 }
-#ászf, #hirlevél, #nem{
-    width: 20px;
+#ászf, #hirlevél, #megsz{
+    width: 20px; height: fit-content;
 }
