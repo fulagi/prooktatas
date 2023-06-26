@@ -1,0 +1,72 @@
+.keret{
+    width: 970px; height: 700px;
+    background-color: papayawhip;
+    color: saddlebrown;
+}
+    header{
+        
+       margin-left: 100px;
+       
+        width: 770px; height: 60px;
+    border: 1px solid red;
+  
+
+}
+.hatter{
+    margin: auto;
+    background-image: url("szines.jpg");
+  background-color: #cccccc;
+  height: 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: inherit;
+}
+aside{
+    width: 240px;
+    float:left;  
+    padding-left: 95px;
+}
+h1{
+    text-align: center;  
+}
+li{
+    list-style-image: url(./chili-pepper-icon.gif);
+   
+}
+.button{ width: 160px; height: 40px; 
+    color: saddlebrown; font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: white; text-align: left;
+  border: 1px  rgb(0, 136, 255) solid; 
+   }
+.button:hover{
+    background-color: aquamarine;
+    color: beige;
+}
+#section1{
+    text-align: justify;
+    padding-right: 95px;
+    float: right;
+    width: 500px;
+}
+table{
+   
+    width: 300px;
+}
+
+.jobb{
+    width: 120px;
+}
+.bal{
+    width: 180px;
+}
+
+table, th, td, tr{
+    
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+   
+    
+    
